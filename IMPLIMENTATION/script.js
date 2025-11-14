@@ -8,9 +8,15 @@ three.addEventListener('click', function(){
     a++
     one.innerHTML=a
 })
-
-let b = 0;
-four.addEventListener('click',function(){
-    b--
-    two.innerHTML=b
+four.addEventListener('click', function(){
+    a--
+    one.innerHTML=a
 })
+
+
+
+// let b = 0;
+// four.addEventListener('click',function(){
+//     b--
+//     two.innerHTML=b
+// })
