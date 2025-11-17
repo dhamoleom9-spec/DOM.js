@@ -1,5 +1,6 @@
 let a = document.querySelector("div.one")
 let b = document.querySelector("button")
+let d = document.querySelector(".main")
 
 let arr = ["om","aditya","aditya n","achyut","akash","sachin","sanket","rushikesh","vivek dada"]
 
@@ -11,5 +12,6 @@ b.addEventListener('click',function(){
 
     a.innerHTML=arr[c3]
     a.style.backgroundColor= `rgb(${c}, ${c1}, ${c2})`
-    b.style.border= `5px solid rgb(${c}, ${c1}, ${c2})`
+    // b.style.border= `5px solid rgb(${c}, ${c1}, ${c2})`
+    d.style.backgroundColor= `rgb(${c}, ${c1}, ${c2})`
 })
