@@ -20,6 +20,7 @@ main {
   width: 100%;
   padding: 1rem;
   background-color: rgb(0, 0, 0);
+  overflow: auto;
 }
 main .bat {
   height: 50px;
