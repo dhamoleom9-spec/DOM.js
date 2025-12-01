@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: black;
+  anchor-name: --first;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+main .box {
+  height: 200px;
+  width: 200px;
+  border-radius: 1rem;
+  z-index: 99;
+}
+main .box:hover {
+  anchor-name: --first;
+}
+main .one {
+  background-color: rgb(255, 166, 0);
+}
+main .two {
+  background-color: rgb(153, 255, 0);
+}
+main .three {
+  background-color: rgb(172, 255, 47);
+}
+main .ancher {
+  position: absolute;
+  position-anchor: --first;
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  top: anchor(top);
+  bottom: anchor(bottom);
+  left: anchor(left);
+  right: anchor(right);
+  pointer-events: none;
+  transition: all 0.4s linear;
+  mix-blend-mode: difference;
+  z-index: 999;
+}/*# sourceMappingURL=style.css.map */

@@ -42,6 +42,7 @@ main section {
   gap: 2rem;
   flex-wrap: none;
   padding: 2rem;
+  position: relative;
 }
 main section figure {
   height: 350px;
@@ -58,7 +59,6 @@ main section figure {
   animation: animate 5s infinite ease-in-out;
   animation-play-state: paused;
   transition: all 0.3s linear;
-  transform: scale(0.9);
   cursor: pointer;
 }
 main section figure img {
@@ -79,9 +79,8 @@ main section figure h2 {
 main section figure:hover {
   box-shadow: 0px 0px 90px orange;
   border-width: 5px;
-  color: orange;
   flex-grow: 4;
+  color: orange;
   text-shadow: 0px 0px 10px orange;
   animation-play-state: running;
-  transform: scale(1);
 }/*# sourceMappingURL=style.css.map */
