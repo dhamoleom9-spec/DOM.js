@@ -1,0 +1,124 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+main section.top {
+  width: 100%;
+  height: 96%;
+  background-image: url(./img-icons/main-bg.avif);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+main section.top .topaction {
+  width: 13%;
+  height: 46%;
+  border-radius: 1rem;
+  background-color: #545050;
+  position: absolute;
+  display: none;
+}
+main section.top .topaction ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  list-style-type: none;
+}
+main section.top .startaction {
+  width: 50%;
+  height: 90%;
+  background-color: rgba(27, 26, 26, 0.578);
+  position: absolute;
+  bottom: 6%;
+  left: 25%;
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  display: none;
+}
+main section.top .startaction .left {
+  width: 55%;
+  height: 100%;
+  color: red;
+}
+main section.top .startaction .right {
+  width: 40%;
+  height: 100%;
+  color: red;
+}
+main section.bottom {
+  width: 100%;
+  padding: 0.2rem;
+  background-color: #24262b;
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section.bottom .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+main section.bottom .container .first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section.bottom .container .first img {
+  width: 3.1rem;
+  height: 3.1rem;
+}
+main section.bottom .container .second {
+  width: 18%;
+  border-radius: 3rem;
+  background-color: rgb(65, 69, 72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+}
+main section.bottom .container .second h1 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+main section.bottom .container .third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+main section.bottom .container .third img {
+  width: 2rem;
+  height: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section.bottom .container .third .three {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+main section.bottom .container .third .two {
+  width: 2.6rem;
+  height: 2.6rem;
+}/*# sourceMappingURL=style.css.map */

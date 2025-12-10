@@ -1,5 +1,3 @@
-
-
 let main = document.querySelector("main")
 let box = document.querySelector(".box")
 let one = document.querySelector(".one")
