@@ -42,8 +42,10 @@ topelement.addEventListener("click", function (event) {
 firstelem.addEventListener("contextmenu", function (event) {
     event.preventDefault();
     start.style.display = "block"
+    start.style.flexDirection = "row"
 })
 firstelem.addEventListener("click", function (event) {
     event.preventDefault();
-    start.style.display = "none"
+    start.style.display = "block"
+    start.style.flexDirection = "row"
 })

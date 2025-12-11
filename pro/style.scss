@@ -27,45 +27,99 @@ main {
         position: relative;
         overflow: hidden;
 
-        .topaction{
+        .topaction {
             width: 13%;
-            height: 46%;
+            height: 47%;
             border-radius: 1rem;
-            background-color: #545050;
+            background-color: #24262bf5;
             position: absolute;
             display: none;
-   
-            
-            ul{
+
+
+            ul {
                 display: flex;
                 flex-direction: column;
                 gap: 0.5rem;
                 padding: 1rem;
                 list-style-type: none;
+
+                li {
+                    padding: 0.1rem;
+                }
+
+                li:hover {
+                    background-color: rgb(81, 80, 80);
+                    border-radius: 0.5rem;
+                }
             }
         }
 
-        .startaction{
+        .startaction {
             width: 50%;
             height: 90%;
-            background-color: rgba(27, 26, 26, 0.578);
             position: absolute;
             bottom: 6%;
             left: 25%;
-            padding: 2rem;
+            // display: none;
             display: flex;
             gap: 1rem;
-            display: none;
 
-            .left{
-                width: 55%;
+            .left {
+                width: 75%;
                 height: 100%;
-                color: red;
+                background-color: rgba(65, 64, 64, 0.774);
+                position: relative;
+                border-radius: 0.5rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+
+                .tp{
+                    height: 2rem;
+                    width: 90%;
+                    background-color: #1D2128;
+                    margin-top:3rem;
+                    border: 1px solid gray;
+                    border-radius: 1rem;
+                    padding-inline: 1rem;
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+
+                    input{
+                        background-color: #1D2128;
+                        color: white;
+                        width: 80%;
+            
+                    }
+                }
+
+                .bott{
+                    position: absolute;
+                    bottom: 0;
+                    width: 98.8%;
+                    background-color:  #1D2128;
+                    height: 10%;
+                    margin: 0.2rem;
+                    border-radius: 0.5rem;
+                    padding-inline: 3rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    img{
+                        height: 3rem;
+                        width: 6rem;
+                        object-fit: cover;
+                    }
+                }
             }
-            .right{
-                width: 40%;
+
+            .right {
+                width: 25%;
                 height: 100%;
-                color: red;
+                background-color:rgba(65, 64, 64, 0.774);
             }
         }
     }
@@ -96,7 +150,13 @@ main {
                     width: 3.1rem;
                     height: 3.1rem;
                 }
+
+                img:hover {
+                    background-color: rgba(51, 50, 50, 0.913);
+                }
             }
+
+
 
             .second {
                 width: 18%;
@@ -117,11 +177,11 @@ main {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                gap: 0.5rem;
+                gap: 0.6rem;
 
                 img {
-                    width: 2rem;
-                    height: 2rem;
+                    width: 2.2rem;
+                    height: 2.2rem;
                     object-fit: cover;
                 }
 
@@ -133,6 +193,10 @@ main {
                 .two {
                     width: 2.6rem;
                     height: 2.6rem;
+                }
+
+                img:hover {
+                    background-color: rgba(51, 50, 50, 0.913);
                 }
             }
         }
